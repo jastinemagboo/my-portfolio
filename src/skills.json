@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Javascript",
+    "type": "Programming Language",
+    "description": "Used JavaScript to build and maintain full-stack web applications. I often work on creating functions that fetch data from APIs, handle asynchronous logic, and integrate frontend and backend components to deliver smooth user experiences."
+  },
+  {
+    "id": 2,
+    "title": "Vue.js",
+    "type": "Frontend Framework",
+    "description": "Maintained and enhanced user interfaces using Vue.js and Vuetify, added features like table columns and displayed dynamic report data from APIs, primarily for internal web reports."
+  },
+  {
+    "id": 3,
+    "title": "Vuetify",
+    "type": "Vue.js User Interface Framework ",
+    "description": "Used Vuetify as a UI component framework alongside Vue.js to build a clean user interfaces. I commonly used its built-in components like date pickers, buttons, cards, and layout templates to speed up development, especially when creating internal reports and admin features."
+  },
+  {
+    "id": 4,
+    "title": "HTML",
+    "type": "Markup Languages ",
+    "description": "Worked with HTML along the Vuetify to structure user interfaces, enabling me to effectively display fetched data in reports and other data-driven views. "
+  },
+  {
+    "id": 5,
+    "title": "CSS",
+    "type": "Styling Sheet Language",
+    "description": "Experienced in maintaining and styling user interfaces, focusing on inline and internal CSS. When new features are added, I ensure the code structure remains clean and organized."
+  },
+  {
+    "id": 6,
+    "title": "Express.js",
+    "type": "Backend Framework",
+    "description": "Implemented RESTful APIs using Express.js to manage CRUD operations efficiently. I used it to define routes and middleware, making it easier to handle data fetching, updating, and overall backend structure in a clean and organized way."
+  },
+  {
+    "id": 7,
+    "title": "Node.js",
+    "type": "Runtime Environment",
+    "description": "Developed backend features with Node.js to support frontend data needs, handling server-side logic and asynchronous operations. I used it as the foundation for building scalable applications, managing API requests, and connecting to databases through libraries like Sequelize."
+  },
+  {
+    "id": 8,
+    "title": "Sequelize",
+    "type": "Object Relational Mapping",
+    "description": "Experienced in using Sequelize as an ORM for managing models, relationships, and queries with PostgreSQL databases. I applied it to define clear data structures and efficiently handle data retrieval, creation, and updates within my Express.js applications."
+  },
+  {
+    "id": 9,
+    "title": "PostgreSQL",
+    "type": "Database Management",
+    "description": "Used PostgreSQL as the primary database to store and manage application data. I frequently performed direct queries to fetch and inspect data, ensuring accurate results for reports and analysis."
+  },
+  {
+    "id": 10,
+    "title": "Git Processes",
+    "type": "Software Tool",
+    "description": "Experienced using Git for version control, performing common operations like cloning repositories, checking out branches, and managing changes with commits. "
+  },
+  {
+    "id": 11,
+    "title": "Postman",
+    "type": "Software Tool",
+    "description": "Tested various API endpoints using Postman, ensuring that they return the correct data as expected. This tool allowed me to verify and validate API responses, contributing to smooth and reliable integrations between the frontend and backend."
+  },
+  {
+    "id": 12,
+    "title": "BitBucket",
+    "type": "Repository Management Tool",
+    "description": "Used Bitbucket for managing repositories, collaborating with teams, and handling version control. I committed code, managed branches, and submitted pull requests to the main branch for smooth integration."
+  }
+]

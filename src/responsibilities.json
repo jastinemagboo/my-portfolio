@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "responsibility": "Investigated and resolved reported technical issues to enhance system stability and performance."
+  },
+  {
+    "id": 2,
+    "responsibility": "Designed, developed, and deployed new features based on business and technical requirements."
+  },
+  {
+    "id": 3,
+    "responsibility": "Worked closely with the QA team to identify, replicate, and resolve reported bugs."
+  },
+  {
+    "id": 4,
+    "responsibility": "Coordinated with the mobile development team to ensure seamless integration between web and mobile platforms."
+  },
+  {
+    "id": 5,
+    "responsibility": "Contributed to Agile development cycles by providing QA insights during sprints, stand-up meetings, retrospectives, and reviews."
+  },
+  {
+    "id": 6,
+    "responsibility": "Designed and optimized SQL queries for backend development to efficiently retrieve and return data as JSON responses for API integration."
+  },
+  {
+    "id": 7,
+    "responsibility": "Developed and maintained RESTful APIs using HTTP methods to support frontend and mobile applications."
+  },
+  {
+    "id": 8,
+    "responsibility": "Documented API endpoints, workflow, and debugging procedures for better team collaboration and future reference."
+  }
+]

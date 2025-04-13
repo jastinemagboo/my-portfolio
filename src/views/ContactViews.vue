@@ -25,7 +25,10 @@ import logo from '@/assets/Jastine.jpg'
 
         <div class="flex items-center">
           <i class="pi pi-envelope mr-4 text-xl text-red-600"></i>
-          <a href="mailto:jastinemagboo25@gmail.com" class="text-lg text-gray-900 hover:underline">
+          <a
+            href="mailto:jastinemagboo25@gmail.com"
+            class="text-lg text-gray-900 hover:underline break-all"
+          >
             jastinemagboo25@gmail.com
           </a>
         </div>

@@ -14,7 +14,7 @@
   {
     "id": 3,
     "title": "Vuetify",
-    "type": "Vue.js User Interface Framework ",
+    "type": "User Interface Framework ",
     "description": "Used Vuetify as a UI component framework alongside Vue.js to build a clean user interfaces. I commonly used its built-in components like date pickers, buttons, cards, and layout templates to speed up development, especially when creating internal reports and admin features."
   },
   {
@@ -31,44 +31,68 @@
   },
   {
     "id": 6,
+    "title": "Tailwind",
+    "type": "CSS Framework",
+    "description": "Used Tailwind CSS in building my personal portfolio. While I’m still learning, I’ve gained experience with utility-first styling and continue to grow my skills in responsive design and clean UI structure."
+  },
+  {
+    "id": 7,
     "title": "Express.js",
     "type": "Backend Framework",
     "description": "Implemented RESTful APIs using Express.js to manage CRUD operations efficiently. I used it to define routes and middleware, making it easier to handle data fetching, updating, and overall backend structure in a clean and organized way."
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "Node.js",
     "type": "Runtime Environment",
     "description": "Developed backend features with Node.js to support frontend data needs, handling server-side logic and asynchronous operations. I used it as the foundation for building scalable applications, managing API requests, and connecting to databases through libraries like Sequelize."
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "Sequelize",
     "type": "Object Relational Mapping",
     "description": "Experienced in using Sequelize as an ORM for managing models, relationships, and queries with PostgreSQL databases. I applied it to define clear data structures and efficiently handle data retrieval, creation, and updates within my Express.js applications."
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "PostgreSQL",
     "type": "Database Management",
     "description": "Used PostgreSQL as the primary database to store and manage application data. I frequently performed direct queries to fetch and inspect data, ensuring accurate results for reports and analysis."
   },
   {
-    "id": 10,
+    "id": 11,
     "title": "Git Processes",
     "type": "Software Tool",
     "description": "Experienced using Git for version control, performing common operations like cloning repositories, checking out branches, and managing changes with commits. "
   },
   {
-    "id": 11,
+    "id": 12,
     "title": "Postman",
     "type": "Software Tool",
     "description": "Tested various API endpoints using Postman, ensuring that they return the correct data as expected. This tool allowed me to verify and validate API responses, contributing to smooth and reliable integrations between the frontend and backend."
   },
   {
-    "id": 12,
+    "id": 13,
     "title": "BitBucket",
     "type": "Repository Management Tool",
     "description": "Used Bitbucket for managing repositories, collaborating with teams, and handling version control. I committed code, managed branches, and submitted pull requests to the main branch for smooth integration."
+  },
+  {
+    "id": 14,
+    "title": "Github",
+    "type": "Repository Management Tool",
+    "description": "Used GitHub for managing version control in personal projects, including my portfolio. I practiced committing code, creating branches, and pushing updates to organize and track progress while learning best practices."
+  },
+  {
+    "id": 15,
+    "title": "Figma",
+    "type": "Design Tools",
+    "description": "Currently using Figma to design UI layouts for my other personal project. While I’m still exploring and learning the tool, I’ve applied it to create clean designs that guide my development process."
+  },
+  {
+    "id": 16,
+    "title": "Canva",
+    "type": "Design Tools",
+    "description": "Used Canva to design logos, and other visual assets for personal projects. Focused on creating clean, professional designs while continuing to explore its features."
   }
 ]

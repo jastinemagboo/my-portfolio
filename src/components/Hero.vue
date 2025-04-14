@@ -25,7 +25,7 @@ defineProps({
         <img
           src="../assets/Jastine.jpg"
           alt="Jastine Magboo"
-          class="h-80 w-80 lg:h-96 lg:w-96 shadow-md rounded-2xl"
+          class="h-64 w-64 md:h-80 md:w-80 lg:h-96 lg:w-96 shadow-md rounded-2xl"
         />
       </div>
 
@@ -34,7 +34,7 @@ defineProps({
       >
         <div class="text-center">
           <p class="my-2 text-xl text-gray-900">Hello, I'm</p>
-          <h1 class="text-4xl font-extrabold text-gray-800 lg:text-5xl">
+          <h1 class="text-3xl font-extrabold text-gray-800 md:text-4xl lg:text-5xl">
             {{ title }}
           </h1>
           <p class="my-4 text-xl text-gray-900">

@@ -25,7 +25,7 @@ const experiences = ref(experienceData)
             <h3 class="text-gray-900 text-lg font-bold mb-6">Duties and Responsibilities</h3>
 
             <p v-for="experience in experiences" class="mb-4 text-gray-900">
-              <i class="pi pi-circle-fill scale-50 ml-6 mr-2"></i>
+              <i class="pi pi-circle-fill scale-50 lg:ml-6 mr-2"></i>
               {{ experience.responsibility }}
             </p>
           </div>

@@ -5,7 +5,7 @@ import { RouterLink } from 'vue-router'
 <template>
   <section class="py-2">
     <div class="container-xl m-auto">
-      <div class="grid grid-cols-1 gap-4 p-8 rounded-lg md:grid-cols-2">
+      <div class="grid grid-cols-1 gap-4 p-6 rounded-lg md:grid-cols-2">
         <div class="bg-gray-200 p-6 rounded-lg shadow-md">
           <h2 class="text-2xl font-bold text-gray-800">Experience</h2>
           <p class="mt-2 mb-4 text-gray-900">Browse my work experience</p>

@@ -2,8 +2,8 @@
 import logo from '@/assets/Jastine.jpg'
 </script>
 <template>
-  <section class="bg-gray-100 px-12 py-10 min-h-screen md:px-20">
-    <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">My Contacts</h2>
+  <section class="bg-gray-100 px-8 py-12 min-h-screen md:px-16 lg:px-24">
+    <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">My Contacts</h2>
 
     <div class="max-w-2xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
       <!-- Profile Image -->

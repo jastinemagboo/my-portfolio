@@ -21,7 +21,7 @@ const truncatedDescription = computed(() => {
 })
 </script>
 <template>
-  <div class="bg-white rounded-xl shadow-md relative">
+  <div class="bg-white rounded-xl shadow-md">
     <div class="p-4">
       <div class="mb-2">
         <div class="text-gray-900 my-2">{{ skill.type }}</div>

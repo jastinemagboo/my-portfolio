@@ -9,7 +9,7 @@ const menuOpen = ref(false)
 </script>
 
 <template>
-  <nav class="bg-gray-300 border-b">
+  <nav class="bg-gray-300 border-b sticky top-0 right-0 left-0">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="flex h-20 items-center justify-between">
         <!-- Logo -->

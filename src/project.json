@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Copi",
+    "description": "Copi is a full-stack minimalist blogsite application that I built from scratch, where users can read, post, edit, and delete their coffee-related stories.",
+    "stack": [
+      "React",
+      "TypeScript",
+      "TailwindCSS",
+      "Shadcn",
+      "lucide icon",
+      "Axios",
+      "Node.js",
+      "Express",
+      "PostgreSQL"
+    ],
+    "links": {
+      "live": "https://copi-fe.vercel.app/",
+      "repo": "https://github.com/jastinemagboo/frontend-copi"
+    },
+    "logo": "./copi.png"
+  },
+  {
+    "id": 2,
+    "title": "My Portfolio",
+    "description": "A portfolio site built with Vue 3 and Tailwind CSS to showcase my work and experience.",
+    "stack": ["Vue 3", "JavaScript", "TailwindCSS"],
+    "links": {
+      "live": "https://jastinemagboo.vercel.app/",
+      "repo": "https://github.com/jastinemagboo/my-portfolio"
+    },
+    "logo": "./icon.png"
+  }
+]

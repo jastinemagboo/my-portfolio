@@ -71,20 +71,20 @@ const menuOpen = ref(false)
               ]"
               >Experience</RouterLink
             >
-            <!-- <RouterLink
-              to="/project"
+            <RouterLink
+              to="/projects"
               @click="menuOpen = false"
               :class="[
-                isActiveLink('/project')
+                isActiveLink('/projects')
                   ? 'bg-gray-400 text-white'
                   : 'hover:bg-gray-400 hover:text-white',
-                'text-black',
+                'text-gray-900',
                 'px-3',
                 'py-2',
                 'rounded-md ',
               ]"
               >Projects</RouterLink
-            > -->
+            >
             <RouterLink
               to="/contact"
               @click="menuOpen = false"

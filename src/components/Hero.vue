@@ -44,7 +44,7 @@ defineProps({
           <div class="flex justify-center gap-4">
             <a href="/JastineMagboo_Resume_2025.pdf" download>
               <button
-                class="flex items-center shadow-md bg-gray-400 text-white rounded-full py-2 px-4 hover:bg-gray-500 hover:text-white transition ease-in-out hover:-translate-y-1 hover:scale-110 transition-all"
+                class="flex items-center shadow-md bg-gray-400 text-white rounded-full py-2 px-4 hover:bg-gray-500 hover:text-white transition ease-in-out hover:-translate-y-1 hover:scale-110"
               >
                 <i class="pi pi-file-pdf text-white mr-2 text-lg"></i>
                 Resume
@@ -52,7 +52,7 @@ defineProps({
             </a>
             <a href="mailto:jastinemagboo25@gmail.com" download>
               <button
-                class="flex items-center shadow-md bg-gray-400 text-white rounded-full py-2 px-4 hover:bg-gray-500 hover:text-white transition ease-in-out hover:-translate-y-1 hover:scale-110 transition-all"
+                class="flex items-center shadow-md bg-gray-400 text-white rounded-full py-2 px-4 hover:bg-gray-500 hover:text-white transition ease-in-out hover:-translate-y-1 hover:scale-110"
               >
                 <i class="pi pi-envelope text-white mr-2 text-lg"></i>
                 Hire Me

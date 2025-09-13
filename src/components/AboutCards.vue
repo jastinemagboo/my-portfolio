@@ -8,12 +8,12 @@ import { RouterLink } from 'vue-router'
       <div class="grid grid-cols-1 gap-4 p-6 rounded-lg md:grid-cols-3">
         <div class="bg-gray-200 p-6 rounded-lg shadow-md">
           <h2 class="text-2xl font-bold text-gray-800">Experience</h2>
-          <p class="mt-2 mb-4 text-gray-900">Browse my work experience</p>
+          <p class="mt-2 mb-4 text-gray-900">View my work experience</p>
           <RouterLink
             to="/experience"
             class="inline-block bg-gray-400 text-white rounded-lg px-4 py-2 hover:bg-gray-400 hover:text-gray-900"
           >
-            Browse Experience
+            View Experience
           </RouterLink>
         </div>
         <div class="bg-gray-200 p-6 rounded-lg shadow-md">

@@ -1,34 +1,68 @@
 [
   {
     "id": 1,
-    "responsibility": "Investigated and resolved reported technical issues to enhance system stability and performance."
+    "company": "NuWorks Interactive Labs, Inc.",
+    "position": "Full Stack Web Developer",
+    "startDate": "June 2025",
+    "endDate": "August 2025",
+    "responsibilities": [
+      {
+        "id": 1,
+        "responsibility": "Built a React web application from scratch, gaining experience with TypeScript and modern UI component libraries while applying best practices in front-end development."
+      },
+      {
+        "id": 2,
+        "responsibility": "Developed a mobile-first web application with responsive design, ensuring optimal user experience across devices."
+      },
+      {
+        "id": 3,
+        "responsibility": "Collaborated with front-end and back-end teams, as well as the project manager, to deliver bug fixes and implement new features based on requirements."
+      },
+      {
+        "id": 4,
+        "responsibility": "Translated Figma designs into fully functional and visually consistent application interfaces."
+      }
+    ]
   },
   {
     "id": 2,
-    "responsibility": "Designed, developed, and deployed new features based on business and technical requirements."
-  },
-  {
-    "id": 3,
-    "responsibility": "Worked closely with the QA team to identify, replicate, and resolve reported bugs."
-  },
-  {
-    "id": 4,
-    "responsibility": "Coordinated with the mobile development team to ensure seamless integration between web and mobile platforms."
-  },
-  {
-    "id": 5,
-    "responsibility": "Contributed to Agile development cycles by providing QA insights during sprints, stand-up meetings, retrospectives, and reviews."
-  },
-  {
-    "id": 6,
-    "responsibility": "Designed and optimized SQL queries for backend development to efficiently retrieve and return data as JSON responses for API integration."
-  },
-  {
-    "id": 7,
-    "responsibility": "Developed and maintained RESTful APIs using HTTP methods to support frontend and mobile applications."
-  },
-  {
-    "id": 8,
-    "responsibility": "Documented API endpoints, workflow, and debugging procedures for better team collaboration and future reference."
+    "company": "JourneyTech, Inc.",
+    "position": "Junior Full Stack Web Developer",
+    "startDate": "November 2022",
+    "endDate": "March 2025",
+    "responsibilities": [
+      {
+        "id": 1,
+        "responsibility": "Investigated and resolved reported technical issues to enhance system stability and performance."
+      },
+      {
+        "id": 2,
+        "responsibility": "Designed, developed, and deployed new features based on business and technical requirements."
+      },
+      {
+        "id": 3,
+        "responsibility": "Worked closely with the QA team to identify, replicate, and resolve reported bugs."
+      },
+      {
+        "id": 4,
+        "responsibility": "Coordinated with the mobile development team to ensure seamless integration between web and mobile platforms."
+      },
+      {
+        "id": 5,
+        "responsibility": "Contributed to Agile development cycles by providing QA insights during sprints, stand-up meetings, retrospectives, and reviews."
+      },
+      {
+        "id": 6,
+        "responsibility": "Designed and optimized SQL queries for backend development to efficiently retrieve and return data as JSON responses for API integration."
+      },
+      {
+        "id": 7,
+        "responsibility": "Developed and maintained RESTful APIs using HTTP methods to support frontend and mobile applications."
+      },
+      {
+        "id": 8,
+        "responsibility": "Documented API endpoints, workflow, and debugging procedures for better team collaboration and future reference."
+      }
+    ]
   }
 ]

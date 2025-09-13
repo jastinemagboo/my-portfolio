@@ -16,7 +16,7 @@ function isOpen(id) {
 
 <template>
   <section class="bg-gray-100">
-    <div class="mx-auto max-w-7xl px-8 py-12 lg:px-16 min-h-screen">
+    <div class="mx-auto max-w-7xl px-6 py-12 lg:px-16 min-h-screen">
       <h2 class="mb-6 text-center text-3xl font-bold text-gray-900">Work Experience</h2>
 
       <div>
@@ -24,7 +24,7 @@ function isOpen(id) {
           <article
             v-for="exp in experiences"
             :key="exp.id"
-            class="bg-white p-6 rounded-lg shadow-md md:text-left"
+            class="bg-white p-6 rounded-lg md:text-left shadow-sm ring-1 ring-gray-100 transition hover:shadow-lg"
           >
             <h1 class="text-3xl font-bold mb-2 text-center md:text-left text-gray-800">
               {{ exp.position }}
@@ -58,11 +58,11 @@ function isOpen(id) {
 
             <div
               :id="`resp-${exp.id}`"
-              class="grid transition-[grid-template-rows] duration-300 ease-in-out mt-6"
+              class="grid transition-[grid-template-rows] duration-300 ease-in-out"
               :class="isOpen(exp.id) ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'"
             >
               <div class="min-h-0 overflow-hidden">
-                <h3 class="text-gray-900 text-center md:text-left text-lg font-bold mb-6">
+                <h3 class="text-gray-900 text-center md:text-left text-lg font-bold my-6">
                   Duties and Responsibilities
                 </h3>
 

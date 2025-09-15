@@ -58,7 +58,7 @@ const iconTone = {
                 <li
                   v-for="(t, i) in p.stack ?? []"
                   :key="i"
-                  class="inline-flex gap-1.5 rounded-full border border-gray-400 px-2 py-2 text-xs font-medium text-gray-800 transition ease-in-out hover:-translate-y-1 hover:scale-100"
+                  class="inline-flex gap-1.5 rounded-full border border-gray-300 px-2 py-2 text-xs font-medium text-gray-800 shadow-sm hover:shadow-md hover:bg-gray-200 hover:text-gray-900"
                   :title="t"
                 >
                   <Icon

@@ -22,6 +22,17 @@
   },
   {
     "id": 2,
+    "title": "Living Word",
+    "description": "An interactive Bible verse web app showcasing React + TypeScript + Tailwind CSS, designed to provide daily motivation and comfort through God's Word.",
+    "stack": ["React", "TypeScript", "TailwindCSS", "lucide icon"],
+    "links": {
+      "live": "https://bible-verse-generator-eta.vercel.app/",
+      "repo": "https://github.com/jastinemagboo/bible-verse-generator"
+    },
+    "logo": "./book.png"
+  },
+  {
+    "id": 3,
     "title": "My Portfolio",
     "description": "A portfolio site built with Vue 3 and Tailwind CSS to showcase my work and experience.",
     "stack": ["Vue 3", "JavaScript", "TailwindCSS"],

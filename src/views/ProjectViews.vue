@@ -10,7 +10,7 @@ const tech2icon = {
   TypeScript: 'simple-icons:typescript',
   TailwindCSS: 'simple-icons:tailwindcss',
   Shadcn: 'radix-icons:component-1',
-  'lucide icon': 'simple-icons:lucide', // a lucide glyph
+  'lucide icon': 'simple-icons:lucide',
   Axios: 'simple-icons:axios',
   'Node.js': 'simple-icons:nodedotjs',
   Express: 'simple-icons:express',
@@ -44,7 +44,7 @@ const iconTone = {
           <article
             v-for="p in projects"
             :key="p.id"
-            class="group overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-gray-100 transition hover:shadow-lg"
+            class="group overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-gray-100 transition hover:shadow-lg active:shadow-lg"
           >
             <div class="space-y-4 p-5">
               <header>
@@ -58,7 +58,7 @@ const iconTone = {
                 <li
                   v-for="(t, i) in p.stack ?? []"
                   :key="i"
-                  class="inline-flex gap-1.5 rounded-full border border-gray-300 px-2 py-2 text-xs font-medium text-gray-800 shadow-sm hover:shadow-md hover:bg-gray-200 hover:text-gray-900"
+                  class="inline-flex gap-1.5 rounded-full border border-gray-300 px-2 py-2 text-xs font-medium text-gray-800 shadow-sm hover:shadow-md hover:bg-gray-200 hover:text-gray-900 active:shadow-md active:bg-gray-200 active:text-gray-900"
                   :title="t"
                 >
                   <Icon

@@ -24,7 +24,7 @@ function isOpen(id) {
           <article
             v-for="exp in experiences"
             :key="exp.id"
-            class="bg-white p-6 rounded-lg md:text-left shadow-sm ring-1 ring-gray-100 transition hover:shadow-lg"
+            class="bg-white p-6 rounded-lg md:text-left shadow-sm ring-1 ring-gray-100 transition hover:shadow-lg active:shadow-lg"
           >
             <h1 class="text-3xl font-bold mb-2 text-center md:text-left text-gray-800">
               {{ exp.position }}
@@ -42,7 +42,7 @@ function isOpen(id) {
               <button
                 type="button"
                 @click="toggle(exp.id)"
-                class="inline-flex items-center gap-2 rounded-full border border-gray-400 px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 active:scale-[0.99] focus:outline-none focus-visible:ring-2 focus-visible:ring-black/20 transition"
+                class="inline-flex items-center gap-2 rounded-full border border-gray-400 px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 active:scale-[0.99] focus:outline-none focus-visible:ring-2 focus-visible:ring-black/20 transition"
                 :aria-expanded="isOpen(exp.id)"
                 :aria-controls="`resp-${exp.id}`"
               >

@@ -20,17 +20,17 @@ const tech2icon = {
 }
 
 const iconTone = {
-  React: 'text-[#61DAFB]',
-  TypeScript: 'text-[#3178C6]',
-  TailwindCSS: 'text-[#06B6D4]',
-  Shadcn: 'text-[#111827]',
-  'lucide icon': 'text-[#F2514B]',
-  Axios: 'text-[#5A29E4]',
-  'Node.js': 'text-[#339933]',
-  Express: 'text-[#000000]',
-  PostgreSQL: 'text-[#336791]',
-  'Vue 3': 'text-[#42B883]',
-  JavaScript: 'text-[#F7DF1E]',
+  React: 'hover:text-[#61DAFB]',
+  TypeScript: 'hover:text-[#3178C6]',
+  TailwindCSS: 'hover:text-[#06B6D4]',
+  Shadcn: 'hover:text-[#111827]',
+  'lucide icon': 'hover:text-[#F2514B]',
+  Axios: 'hover:text-[#5A29E4]',
+  'Node.js': 'hover:text-[#339933]',
+  Express: 'hover:text-black',
+  PostgreSQL: 'hover:text-[#336791]',
+  'Vue 3': 'hover:text-[#42B883]',
+  JavaScript: 'hover:text-[#F7DF1E]',
 }
 </script>
 
@@ -58,12 +58,12 @@ const iconTone = {
                 <li
                   v-for="(t, i) in p.stack ?? []"
                   :key="i"
-                  class="inline-flex gap-1.5 rounded-full border border-gray-300 px-2 py-2 text-xs font-medium text-gray-800 shadow-sm hover:shadow-md hover:bg-gray-200 hover:text-gray-900 active:shadow-md active:bg-gray-200 active:text-gray-900"
+                  class="inline-flex gap-1.5 rounded-full border border-gray-200 px-2 py-2 text-xs font-medium text-gray-900 shadow-sm hover:shadow-md hover:bg-gray-100 hover:translate-y-px hover:text-gray-900 active:shadow-md active:bg-gray-200 active:text-gray-900"
                   :title="t"
                 >
                   <Icon
                     :icon="tech2icon[t] || 'lucide:code-2'"
-                    :class="['h-3.5 w-3.5', iconTone[t] || 'text-gray-500']"
+                    :class="['h-3.5 w-3.5 text-gray-800', iconTone[t] || 'hover:text-gray-800']"
                   />
                   <span class="text-gray-800">{{ t }}</span>
                 </li>
@@ -75,7 +75,7 @@ const iconTone = {
                   :href="p.links.live"
                   target="_blank"
                   rel="noopener"
-                  class="inline-flex items-center gap-1 rounded-full border border-gray-400 shadow-lg px-4 py-2 text-gray-800 text-xs font-semibold transition ease-in-out hover:-translate-y-1 hover:scale-100"
+                  class="inline-flex items-center gap-1 rounded-2xl border border-gray-200 bg-gray-100 shadow-lg px-4 py-2 text-gray-800 text-xs font-semibold hover:bg-gray-200 hover:translate-y-px"
                 >
                   <img
                     v-if="p.logo"
@@ -91,7 +91,7 @@ const iconTone = {
                   :href="p.links.repo"
                   target="_blank"
                   rel="noopener"
-                  class="inline-flex items-center gap-1 shadow-lg rounded-full border border-gray-400 px-4 py-2 text-xs font-semibold text-gray-800 transition ease-in-out hover:-translate-y-1 hover:scale-100"
+                  class="inline-flex items-center gap-1 shadow-lg rounded-2xl border border-gray-200 bg-gray-100 px-4 py-2 text-xs font-semibold text-gray-800 hover:translate-y-px hover:bg-gray-200"
                 >
                   <Icon
                     icon="simple-icons:github"

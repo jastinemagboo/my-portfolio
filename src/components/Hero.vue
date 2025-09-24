@@ -22,11 +22,13 @@ defineProps({
       <div
         class="bg-gray-200 flex items-center justify-center pt-16 pb-4 md:items-end md:justify-end md:py-28 md:pr-6 md:w-1/2 lg:py-32 lg:pr-6"
       >
-        <img
-          src="../assets/Jastine.jpg"
-          alt="Jastine Magboo"
-          class="h-64 w-64 md:h-80 md:w-80 lg:h-96 lg:w-96 shadow-md rounded-2xl"
-        />
+        <div class="overflow-hidden rounded-2xl">
+          <img
+            src="../assets/Jastine.jpg"
+            alt="Jastine Magboo"
+            class="h-64 w-64 md:h-80 md:w-80 lg:h-96 lg:w-96 shadow-md rounded-2xl object-cover object-[top_center]"
+          />
+        </div>
       </div>
 
       <div

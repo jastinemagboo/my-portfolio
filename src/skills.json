@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "title": "Javascript",
+    "title": "JavaScript",
     "type": "Programming Language",
     "description": "Used JavaScript to build and maintain full-stack web applications. I often work on creating functions that fetch data from APIs, handle asynchronous logic, and integrate frontend and backend components to deliver smooth user experiences."
   },
   {
     "id": 2,
     "title": "TypeScript",
-    "type": "Programming Language",
+    "type": "Superset of JavaScript",
     "description": "Introduced to TypeScript while working on a React project. Applied basic typing for props, state, and functions to improve code clarity. My exposure lasted around two months, giving me a foundation in integrating TypeScript with frontend development, though I am still learning deeper concepts."
   },
   {

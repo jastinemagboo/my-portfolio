@@ -58,7 +58,7 @@ const iconTone = {
                 <li
                   v-for="(t, i) in p.stack ?? []"
                   :key="i"
-                  class="inline-flex gap-1.5 rounded-full border border-gray-200 px-2 py-2 text-xs font-medium text-gray-900 shadow-sm hover:shadow-md hover:bg-gray-100 hover:translate-y-px hover:text-gray-900 active:shadow-md active:bg-gray-200 active:text-gray-900"
+                  class="inline-flex gap-1.5 rounded-full border border-gray-300 px-2 py-2 text-xs font-medium text-gray-900 shadow-sm hover:shadow-md hover:bg-gray-100 hover:text-gray-900 active:shadow-md active:bg-gray-200 active:text-gray-900"
                   :title="t"
                 >
                   <Icon
@@ -69,13 +69,13 @@ const iconTone = {
                 </li>
               </ul>
 
-              <div class="flex flex-wrap gap-2 pt-2">
+              <div class="flex flex-wrap gap-3 pt-2">
                 <a
                   v-if="p.links?.live"
                   :href="p.links.live"
                   target="_blank"
                   rel="noopener"
-                  class="inline-flex items-center gap-1 rounded-2xl border border-gray-200 bg-gray-100 shadow-lg px-4 py-2 text-gray-800 text-xs font-semibold hover:bg-gray-200 hover:translate-y-px"
+                  class="inline-flex items-center gap-1 rounded-2xl border border-gray-200 bg-gray-100 shadow-lg px-4 py-2 text-gray-800 text-xs font-semibold hover:bg-gray-300 transition ease-in-out hover:-translate-y-1 hover:scale-110"
                 >
                   <img
                     v-if="p.logo"
@@ -91,7 +91,7 @@ const iconTone = {
                   :href="p.links.repo"
                   target="_blank"
                   rel="noopener"
-                  class="inline-flex items-center gap-1 shadow-lg rounded-2xl border border-gray-200 bg-gray-100 px-4 py-2 text-xs font-semibold text-gray-800 hover:translate-y-px hover:bg-gray-200"
+                  class="inline-flex items-center gap-1 shadow-lg rounded-2xl border border-gray-200 bg-gray-100 px-4 py-2 text-xs font-semibold text-gray-800 hover:bg-gray-300 transition ease-in-out hover:-translate-y-1 hover:scale-110"
                 >
                   <Icon
                     icon="simple-icons:github"

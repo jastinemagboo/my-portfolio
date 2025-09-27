@@ -29,7 +29,7 @@ const truncatedDescription = computed(() => {
       </div>
 
       <div>
-        <div class="text-gray-900 text-sm">
+        <div class="text-gray-900">
           {{ truncatedDescription }}
         </div>
         <button

@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Copi",
-    "description": "Copi is a full-stack minimalist blogsite application that I built from scratch, where users can read, post, edit, and delete their coffee-related stories.",
+    "description": "A full-stack coffee story platform built from scratch where users can create, edit, delete, and explore coffee-related stories through a responsive and minimalist interface.",
     "stack": [
       "React",
       "TypeScript",
@@ -23,8 +23,13 @@
   {
     "id": 2,
     "title": "Living Word",
-    "description": "An interactive Bible verse web app showcasing React + TypeScript + Tailwind CSS, designed to provide daily motivation and comfort through God's Word.",
-    "stack": ["React", "TypeScript", "TailwindCSS", "lucide icon"],
+    "description": "An interactive Bible verse web app built with React and TypeScript that provides daily verses for motivation, reflection, and encouragement.",
+    "stack": [
+      "React",
+      "TypeScript",
+      "TailwindCSS",
+      "lucide icon"
+    ],
     "links": {
       "live": "https://bible-verse-generator-eta.vercel.app/",
       "repo": "https://github.com/jastinemagboo/bible-verse-generator"
@@ -34,8 +39,12 @@
   {
     "id": 3,
     "title": "My Portfolio",
-    "description": "A portfolio site built with Vue 3 and Tailwind CSS to showcase my work and experience.",
-    "stack": ["Vue 3", "JavaScript", "TailwindCSS"],
+    "description": "A personal portfolio built with Vue 3 and Tailwind CSS to showcase my projects, technical skills, and professional experience.",
+    "stack": [
+      "Vue 3",
+      "JavaScript",
+      "TailwindCSS"
+    ],
     "links": {
       "live": "https://jastinemagboo.vercel.app/",
       "repo": "https://github.com/jastinemagboo/my-portfolio"

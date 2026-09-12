@@ -3,103 +3,80 @@ import { ref } from 'vue'
 import { useRoute, RouterLink } from 'vue-router'
 
 const route = useRoute()
+const menuOpen = ref(false)
+
 const isActiveLink = (path) => route.path === path
 
-const menuOpen = ref(false)
+const navLinks = [
+  { name: 'Home', path: '/' },
+  { name: 'Skills', path: '/skills' },
+  { name: 'Experience', path: '/experience' },
+  { name: 'Projects', path: '/projects' },
+  { name: 'Contact', path: '/contact' },
+]
 </script>
 
 <template>
-  <nav class="bg-gray-300 border-b sticky top-0 right-0 left-0">
+  <nav class="sticky top-0 z-50 border-b border-gray-300 bg-gray-200/95 shadow-sm backdrop-blur">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <div class="flex h-20 items-center justify-between">
+      <div class="flex h-16 items-center justify-between">
         <!-- Logo -->
-        <RouterLink to="/" class="text-2xl font-bold text-gray-900">Jastine</RouterLink>
+        <RouterLink
+          to="/"
+          class="text-xl font-bold tracking-tight text-gray-900 transition-opacity hover:opacity-70"
+          @click="menuOpen = false"
+        >
+          Jastine
+        </RouterLink>
 
-        <!-- Hamburger icon (mobile only) -->
+        <!-- Desktop Navigation -->
+        <div class="hidden items-center gap-1 md:flex">
+          <RouterLink
+            v-for="link in navLinks"
+            :key="link.path"
+            :to="link.path"
+            :class="[
+              isActiveLink(link.path)
+                ? 'bg-gray-800 text-white shadow-sm'
+                : 'text-gray-700 hover:bg-gray-300 hover:text-gray-900',
+              'rounded-full px-4 py-2 text-sm font-medium transition-all duration-200',
+            ]"
+          >
+            {{ link.name }}
+          </RouterLink>
+        </div>
+
+        <!-- Mobile Menu Button -->
         <button
-          class="md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-800 hover:text-white bg-gray-400 focus:outline-none"
+          type="button"
+          class="inline-flex items-center justify-center rounded-full bg-gray-300 p-2.5 text-gray-800 transition-colors hover:bg-gray-400 md:hidden"
           @click="menuOpen = !menuOpen"
+          aria-label="Toggle navigation menu"
         >
           <i :class="menuOpen ? 'pi pi-times' : 'pi pi-bars'"></i>
         </button>
+      </div>
 
-        <!-- Menu Links -->
-        <div
-          :class="[
-            menuOpen ? 'block' : 'hidden',
-            'absolute z-10 md:static top-20 left-0 w-full md:w-auto bg-gray-300 md:flex md:items-center transition-all ',
-          ]"
-        >
-          <div class="flex flex-col md:flex-row md:space-x-2 px-4 py-2 md:p-0 bg-gray-300">
-            <RouterLink
-              to="/"
-              @click="menuOpen = false"
-              :class="[
-                isActiveLink('/') ? 'bg-gray-400 text-white' : 'hover:bg-gray-400 hover:text-white',
-                'text-gray-900',
-                'px-3',
-                'py-2',
-                'rounded-md ',
-              ]"
-              >About</RouterLink
-            >
-            <RouterLink
-              to="/skills"
-              @click="menuOpen = false"
-              :class="[
-                isActiveLink('/skills')
-                  ? 'bg-gray-400 text-white'
-                  : 'hover:bg-gray-400 hover:text-white',
-                'text-gray-900',
-                'px-3',
-                'py-2',
-                'rounded-md ',
-              ]"
-              >Skills</RouterLink
-            >
-            <RouterLink
-              to="/experience"
-              @click="menuOpen = false"
-              :class="[
-                isActiveLink('/experience')
-                  ? 'bg-gray-400 text-white'
-                  : 'hover:bg-gray-400 hover:text-white',
-                'text-gray-900',
-                'px-3',
-                'py-2',
-                'rounded-md ',
-              ]"
-              >Experience</RouterLink
-            >
-            <RouterLink
-              to="/projects"
-              @click="menuOpen = false"
-              :class="[
-                isActiveLink('/projects')
-                  ? 'bg-gray-400 text-white'
-                  : 'hover:bg-gray-400 hover:text-white',
-                'text-gray-900',
-                'px-3',
-                'py-2',
-                'rounded-md ',
-              ]"
-              >Projects</RouterLink
-            >
-            <RouterLink
-              to="/contact"
-              @click="menuOpen = false"
-              :class="[
-                isActiveLink('/contact')
-                  ? 'bg-gray-400 text-white'
-                  : 'hover:bg-gray-400 hover:text-white',
-                'text-gray-900',
-                'px-3',
-                'py-2',
-                'rounded-md ',
-              ]"
-              >Contact</RouterLink
-            >
-          </div>
+      <!-- Mobile Navigation -->
+      <div
+        v-if="menuOpen"
+        class="border-t border-gray-300 py-3 md:hidden"
+      >
+        <div class="flex flex-col gap-1">
+          <RouterLink
+            v-for="link in navLinks"
+            :key="link.path"
+            :to="link.path"
+            @click="menuOpen = false"
+            :class="[
+              isActiveLink(link.path)
+                ? 'bg-gray-800 text-white'
+                : 'text-gray-700 hover:bg-gray-300',
+              'rounded-lg px-4 py-3 text-sm font-medium transition-colors duration-200',
+            ]"
+          >
+            {{ link.name }}
+          </RouterLink>
         </div>
       </div>
     </div>

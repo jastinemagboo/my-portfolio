@@ -1,14 +1,43 @@
 [
   {
     "id": 1,
+    "company": "Asti Business Services, Inc.",
+    "position": "Mid-Backend Developer",
+    "startDate": "January 2026",
+    "endDate": "September 2026 · Contractual",
+    "responsibilities": [
+      {
+        "id": 1,
+        "responsibility": "Contributed to the development and maintenance of a web-based ticketing and workflow management system for user requests, approvals, and status tracking."
+      },
+      {
+        "id": 2,
+        "responsibility": "Optimized ticket data retrieval by implementing server-side filtering and pagination, reducing unnecessary data loading on the client side."
+      },
+      {
+        "id": 3,
+        "responsibility": "Developed new features and implemented bug fixes based on business requirements to improve system functionality and user experience."
+      },
+      {
+        "id": 4,
+        "responsibility": "Assisted administrators in configuring approval flows, workflow statuses, automations, and system features after development."
+      },
+      {
+        "id": 5,
+        "responsibility": "Collaborated with developers, managers, and QA teams during testing, troubleshooting, and feature delivery."
+      }
+    ]
+  },
+  {
+    "id": 2,
     "company": "NuWorks Interactive Labs, Inc.",
-    "position": "Full Stack Web Developer",
+    "position": "Frontend Web Developer",
     "startDate": "June 2025",
     "endDate": "August 2025",
     "responsibilities": [
       {
         "id": 1,
-        "responsibility": "Contributed to the development of a React-based web application from scratch, gaining experience with TypeScript and modern UI component libraries."
+        "responsibility": "Contributed to the development of a React-based web game application from scratch, gaining experience with TypeScript and modern UI component libraries."
       },
       {
         "id": 2,
@@ -16,7 +45,7 @@
       },
       {
         "id": 3,
-        "responsibility": "Collaborated with front-end and back-end teams, as well as the project manager, to deliver bug fixes and implement new features based on requirements."
+        "responsibility": "Collaborated with frontend and backend teams, as well as the project manager, to deliver bug fixes and implement new features based on requirements."
       },
       {
         "id": 4,
@@ -25,7 +54,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "company": "JourneyTech, Inc.",
     "position": "Junior Full Stack Web Developer",
     "startDate": "November 2022",
@@ -33,35 +62,35 @@
     "responsibilities": [
       {
         "id": 1,
-        "responsibility": "Investigated and resolved reported technical issues to enhance system stability and performance."
+        "responsibility": "Developed and deployed web features for an Automated Fare Collection System (AFCS) to display and manage transportation transaction data."
       },
       {
         "id": 2,
-        "responsibility": "Designed, developed, and deployed new features based on business and technical requirements."
+        "responsibility": "Developed and maintained RESTful APIs to support web and mobile applications."
       },
       {
         "id": 3,
-        "responsibility": "Worked closely with the QA team to identify, replicate, and resolve reported bugs."
+        "responsibility": "Optimized SQL queries to efficiently retrieve and serve transaction data as JSON for API integration."
       },
       {
         "id": 4,
-        "responsibility": "Coordinated with the mobile development team to ensure seamless integration between web and mobile platforms."
+        "responsibility": "Investigated and resolved technical issues and bugs to improve application stability and performance."
       },
       {
         "id": 5,
-        "responsibility": "Contributed to Agile development cycles by providing QA insights during sprints, stand-up meetings, retrospectives, and reviews."
+        "responsibility": "Collaborated with QA to reproduce, investigate, and resolve application issues."
       },
       {
         "id": 6,
-        "responsibility": "Designed and optimized SQL queries for backend development to efficiently retrieve and return data as JSON responses for API integration."
+        "responsibility": "Worked closely with the mobile development team to support data integration between web and mobile platforms."
       },
       {
         "id": 7,
-        "responsibility": "Developed and maintained RESTful APIs using HTTP methods to support frontend and mobile applications."
+        "responsibility": "Participated in Agile development activities including stand-ups, retrospectives, sprint reviews, and QA activities."
       },
       {
         "id": 8,
-        "responsibility": "Documented API endpoints, workflow, and debugging procedures for better team collaboration and future reference."
+        "responsibility": "Documented API endpoints, workflows, and troubleshooting procedures to support team collaboration and maintenance."
       }
     ]
   }

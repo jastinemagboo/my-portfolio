@@ -17,7 +17,7 @@ defineProps({
 </script>
 
 <template>
-  <section class="min-h-screen bg-gray-100">
+  <section class="bg-gray-100">
     <div class="flex flex-col md:flex-row">
       <!-- Profile Image -->
       <div
@@ -37,19 +37,13 @@ defineProps({
         class="flex items-center justify-center bg-gray-100 px-6 pt-4 pb-16 text-center md:w-1/2 md:justify-start md:py-28 md:pl-10 md:text-left lg:pl-12"
       >
         <div class="max-w-xl">
-          <p class="mb-2 text-lg font-medium text-gray-600">
-            Hello, I'm
-          </p>
+          <p class="mb-2 text-lg font-medium text-gray-600">Hello, I'm</p>
 
-          <h1
-            class="text-4xl font-extrabold tracking-tight text-gray-800 md:text-5xl lg:text-6xl"
-          >
+          <h1 class="text-4xl font-extrabold tracking-tight text-gray-800 md:text-5xl lg:text-6xl">
             {{ title }}
           </h1>
 
-          <p
-            class="mt-4 text-xl font-semibold text-gray-700 md:text-2xl"
-          >
+          <p class="mt-4 text-xl font-semibold text-gray-700 md:text-2xl">
             {{ subTitle }}
           </p>
 
@@ -59,13 +53,13 @@ defineProps({
 
           <!-- CTA Buttons -->
           <div class="mt-7 flex flex-wrap justify-center gap-3 md:justify-start">
-          <RouterLink
-            to="/projects"
-            class="flex items-center rounded-full bg-gray-800 px-5 py-2.5 text-sm font-medium text-white shadow-md transition duration-300 hover:-translate-y-1 hover:bg-gray-700"
-          >
-            <i class="pi pi-code mr-2"></i>
-            Browse Projects
-          </RouterLink>
+            <RouterLink
+              to="/projects"
+              class="flex items-center rounded-full bg-gray-800 px-5 py-2.5 text-sm font-medium text-white shadow-md transition duration-300 hover:-translate-y-1 hover:bg-gray-700"
+            >
+              <i class="pi pi-code mr-2"></i>
+              Browse Projects
+            </RouterLink>
 
             <a
               href="/JastineMagboo_Resume_2026.pdf"
@@ -76,46 +70,53 @@ defineProps({
               Resume
             </a>
             <RouterLink
-              to="/contact"
+              to="/experience"
               class="flex items-center rounded-full border border-gray-400 bg-white px-5 py-2.5 text-sm font-medium text-gray-700 shadow-md transition duration-300 hover:-translate-y-1 hover:bg-gray-50"
             >
-              <i class="pi pi-envelope mr-2"></i>
-              Contact Me
+              <i class="pi pi-briefcase mr-2"></i>
+              Experience
             </RouterLink>
           </div>
 
           <!-- Tech Stack -->
           <div class="mt-8">
-            <p class="mb-3 text-sm font-medium text-gray-500">
-              Currently working with
-            </p>
+            <p class="mb-3 text-sm font-medium text-gray-500">Currently working with</p>
 
             <div class="flex flex-wrap justify-center gap-2 md:justify-start">
-            <span
-              v-for="tech in [
-                'Next.js',
-                'TypeScript',
-                'Node.js',
-                'PostgreSQL',
-                'Firestore',
-              ]"
-              :key="tech"
-              class="rounded-full bg-white px-3 py-1 text-xs font-medium text-gray-600 shadow-sm"
-            >
-              {{ tech }}
-            </span>
+              <span
+                v-for="tech in ['Next.js', 'TypeScript', 'Node.js', 'PostgreSQL', 'Firestore']"
+                :key="tech"
+                class="rounded-full bg-white px-3 py-1 text-xs font-medium text-gray-600 shadow-sm"
+              >
+                {{ tech }}
+              </span>
 
-          <RouterLink
-            to="/skills"
-            class="flex items-center rounded-full bg-gray-800 px-3 py-1 text-xs font-medium text-white shadow-sm transition duration-300 hover:-translate-y-0.5 hover:bg-gray-700"
-          >
-            View All Skills
-            <i class="pi pi-arrow-up-right ml-1.5 text-[10px]"></i>
-          </RouterLink>
-          </div>
+              <RouterLink
+                to="/skills"
+                class="flex items-center rounded-full bg-gray-800 px-3 py-1 text-xs font-medium text-white shadow-sm transition duration-300 hover:-translate-y-0.5 hover:bg-gray-700"
+              >
+                View All Skills
+                <i class="pi pi-arrow-up-right ml-1.5 text-[10px]"></i>
+              </RouterLink>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- Footer -->
+    <footer class="border-t border-gray-200 bg-gray-100/95">
+      <div class="mx-auto flex items-center justify-center gap-3 px-6 py-4">
+        <p class="text-xs text-gray-400">© {{ new Date().getFullYear() }} Jastine Magboo</p>
+
+        <span class="text-xs text-gray-400">·</span>
+
+        <RouterLink
+          to="/contact"
+          class="text-xs font-medium text-gray-600 underline decoration-gray-300 underline-offset-4 transition-colors duration-300 hover:text-gray-900 hover:decoration-gray-700"
+        >
+          Contact Me
+        </RouterLink>
+      </div>
+    </footer>
   </section>
 </template>

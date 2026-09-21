@@ -37,20 +37,17 @@ const iconTone = {
 <template>
   <section class="min-h-screen bg-gray-100 px-6 py-16 md:px-10 lg:px-16">
     <div class="mx-auto max-w-6xl">
-
       <!-- Section Header -->
       <div class="mb-12">
-        <p class="mb-2 text-sm font-medium uppercase tracking-wider text-gray-500">
-          Projects
-        </p>
+        <p class="mb-2 text-sm font-medium uppercase tracking-wider text-gray-500">Projects</p>
 
         <h2 class="text-3xl font-bold tracking-tight text-gray-800 md:text-4xl">
           Things I've Built
         </h2>
 
         <p class="mt-3 max-w-2xl text-base leading-relaxed text-gray-600">
-          A selection of web applications and personal projects I've built
-          to explore technologies and solve real-world problems.
+          A selection of web applications and personal projects I've built to explore technologies
+          and solve real-world problems.
         </p>
       </div>
 
@@ -62,9 +59,7 @@ const iconTone = {
           class="group rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg md:p-8"
         >
           <!-- Project Header -->
-          <div
-            class="flex flex-col gap-4 md:flex-row md:items-start md:justify-between"
-          >
+          <div class="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
             <div>
               <h3
                 class="text-2xl font-bold tracking-tight text-gray-800 transition-colors duration-300 group-hover:text-gray-900"
@@ -78,9 +73,7 @@ const iconTone = {
             </div>
 
             <!-- Project Number -->
-            <span
-              class="hidden text-sm font-medium tracking-wider text-gray-300 md:block"
-            >
+            <span class="hidden text-sm font-medium tracking-wider text-gray-300 md:block">
               {{ String(p.id).padStart(2, '0') }}
             </span>
           </div>
@@ -90,9 +83,7 @@ const iconTone = {
 
           <!-- Tech Stack -->
           <div>
-            <p
-              class="mb-3 text-xs font-semibold uppercase tracking-wider text-gray-400"
-            >
+            <p class="mb-3 text-xs font-semibold uppercase tracking-wider text-gray-400">
               Built with
             </p>
 
@@ -135,10 +126,7 @@ const iconTone = {
 
               <span>View Project</span>
 
-              <Icon
-                icon="lucide:external-link"
-                class="h-4 w-4"
-              />
+              <Icon icon="lucide:external-link" class="h-4 w-4" />
             </a>
 
             <a
@@ -148,11 +136,7 @@ const iconTone = {
               rel="noopener noreferrer"
               class="inline-flex items-center gap-2 rounded-xl border border-gray-200 bg-white px-4 py-2.5 text-sm font-semibold text-gray-700 transition-all duration-200 hover:-translate-y-0.5 hover:border-gray-300 hover:bg-gray-50 hover:shadow-sm"
             >
-              <Icon
-                icon="simple-icons:github"
-                class="h-4 w-4"
-                aria-hidden="true"
-              />
+              <Icon icon="simple-icons:github" class="h-4 w-4" aria-hidden="true" />
 
               <span>View GitHub</span>
             </a>
